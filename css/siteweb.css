@@ -417,10 +417,6 @@ display: inline-block;}
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
 .price-display {
     font-weight: bold;
     margin-top: 10px;
@@ -621,15 +617,6 @@ footer {
 #loading-overlay p {
     font-size: 1.2rem;
     color: #333;
-}
-
-
-/* Conteneur principal pour le formulaire et la vidéo pour gérer la taille des vidéos*/
-.form-and-video-container {
-    display: flex;
-    justify-content: space-between; /* Espacement entre les éléments */
-    align-items: flex-start; /* Aligner les éléments au début de la ligne */
-    margin: 20px;
 }
 
 /* Conteneur du formulaire */
