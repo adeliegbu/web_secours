@@ -1,4 +1,4 @@
-const apiKey = '3e4351af903508f22ee42c410ca1baba'; //  clé API OpenWeatherMap
+const apiKey = ''; //  clé API OpenWeatherMap
 
 //js filtrant meme les voyages card en bas  mais pas tout a fait
 
