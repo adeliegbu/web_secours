@@ -219,7 +219,7 @@ display: inline-block;}
 .search-select {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #ddd;
+    border: 2px solid #006fbf;
     border-radius: 5px;
 }
 
@@ -427,8 +427,40 @@ display: inline-block;}
     scroll-margin-top: 120px; /* Décale la section de 120px lors du scroll pour éviter que le header ne cache le contenu */
 }
 
-.payment-form {
-    padding : 120px
+.payment-form, .panier-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+}
+
+.panier-details {
+    margin-top: 0;
+}
+
+.submit-button, .validate-button, .reset-button {
+    padding: 10px 20px;
+    background-color: #006fbf;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+}
+
+.validate-button {
+    margin-bottom: 4vh;
+}
+
+#reset-button-form {
+    padding: 10px 20px;
+    background-color: #006fbf;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2vh;
 }
 
 .panier h2 {
@@ -519,7 +551,7 @@ input:invalid { /* Style pour les champs invalides (erreur au remplissage des fo
     border: 2px solid red;
 }
 input:valid { /* Style pour les champs valides */
-    border: 2px solid green;
+    border: 2px solid #006fbf;
 }
 
 
